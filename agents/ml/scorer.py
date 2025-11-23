@@ -1,0 +1,3 @@
+
+class ThreatScorer:
+    pass

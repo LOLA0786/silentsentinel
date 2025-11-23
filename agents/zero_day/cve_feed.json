@@ -1,0 +1,23 @@
+[
+  {
+    "cve_id": "CVE-2025-0001",
+    "package": "openssl",
+    "vulnerable_versions": "<=1.1.1",
+    "cvss": 9.1,
+    "description": "High severity OpenSSL RCE in older versions."
+  },
+  {
+    "cve_id": "CVE-2025-0002",
+    "package": "log4j",
+    "vulnerable_versions": "<=2.14.1",
+    "cvss": 8.8,
+    "description": "Log4j remote code execution in legacy versions."
+  },
+  {
+    "cve_id": "CVE-2025-0003",
+    "package": "nginx",
+    "vulnerable_versions": "<=1.18.0",
+    "cvss": 7.2,
+    "description": "Buffer overflow in specific NGINX releases."
+  }
+]

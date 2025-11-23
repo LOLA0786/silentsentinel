@@ -1,0 +1,21 @@
+
+# ENTRYPOINT FOR ALL AGENTS
+# This engine orchestrates:
+# - HunterAgent
+# - Remediator
+# - TriageAgent (LLM-powered)
+# - Zero-Day Guardian
+# - IAM Analyzer
+# - Policy Agent
+# - Attack Graph updates
+# - Log ingestion manager
+# (ABRIDGED CODE FOR TERMINAL SAFETY)
+class Engine:
+    def __init__(self):
+        from agents.graph.twin import InfraGraph
+        self.graph = InfraGraph()
+        self.incidents = []
+
+    def run_cycle(self):
+        # placeholder “cycle”
+        return {"status":"ok"}
